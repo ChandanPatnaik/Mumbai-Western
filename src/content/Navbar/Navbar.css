@@ -1,0 +1,88 @@
+.mw__nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid rgb(183, 212, 239);
+    width: 100%;
+}
+.head1{
+    display: flex;
+    align-items: flex-start;
+    padding: 0.2rem 1rem;
+    margin: 0 1rem;
+    color: rgb(29, 26, 26);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.mw__compo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+}
+.mw__search{
+    display: flex;
+    align-items: center;
+}
+.mw__search_button{
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+.mw__search_button p{
+    font-size: 10px;
+    padding: 0 19px;
+}
+.mw__month{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mw__month_button{
+    margin: 0px;
+    padding: 3px;
+    font-size: 11px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.mw__month_button:last-child{
+    background-color: rgb(76, 76, 251);
+    color: white;
+}
+.mw__time_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 5px ;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.mw__time_button p{
+    color: rgb(73, 73, 73);
+}
+.mw__notifi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mw__noti{
+    color: rgb(39, 35, 30);
+    font-size: 22px;
+    transition: 1s ease-in ;
+}
+.mw__user{
+    color: rgb(39, 35, 30);
+    font-size: 20px;
+}
+.mw__arrow{
+    rotate: 90deg;
+    transform: rotate(90deg);
+    font-size: 11px;
+    color: rgb(47, 46, 46);
+}

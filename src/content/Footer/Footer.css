@@ -1,0 +1,37 @@
+
+.mw__footer {
+  display: grid;
+  width: 65%;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px 18px;
+}
+.mw__footer_part {
+  background: rgb(183, 212, 239);
+  border: 1px solid rgb(167, 208, 247);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 8px;
+}
+.first h2 {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.first {
+  font-size: 13px;
+}
+.second {
+  font-size: 13px;
+}
+.second h2 {
+  color: rgb(75, 75, 246);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.first p,
+.second p{
+    font-size: 13px;
+    margin: 3px;
+}

@@ -1,0 +1,78 @@
+.mw__main {
+  height: 100%;
+  width: 27vw;
+  background-color: #2352de;
+  /* overflow-y: hidden ; */
+}
+.mw__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo__main {
+  font-size: 3rem;
+  border: none;
+  color: white;
+  margin: 1.3rem;
+  padding: 2px;
+}
+.mw__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin: 0 1rem;
+  background-color: #7192f6;
+  padding: 1rem 3rem;
+}
+.second__logo {
+  font-size: 2.3rem;
+  padding: 6px;
+  color: #4169e1;
+  background: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.head__second {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 800;
+}
+.head__second p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.arrow__button{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.arrow__button:hover{
+    cursor: pointer;
+    color: blue;
+}
+/* Remaining part of the sidebar */
+.options{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.options__menu{
+    display: flex;
+    justify-content: flex-start;
+    margin:0.3rem;
+}
+.options__button{
+    color: #ffffff;
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+}
+.options__scrool{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: white;
+}
+.options__scrool:hover,
+.options__button:hover{
+    cursor: pointer;
+    color: rgb(218, 205, 205);
+}
